@@ -1,4 +1,4 @@
--- Before read my Docs about Sustainable Home Made Product
+-- First read sales report.docx
 
 -- 1. Total sales amount grouped by product category
 SELECT pc.CategoryName, SUM(oi.Quantity * oi.PricePerUnit) AS TotalSales
